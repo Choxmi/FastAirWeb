@@ -1,0 +1,28 @@
+.my-gallery {
+    width: 100%;
+    float: left;
+    display: flex;
+	flex-flow: row wrap;
+}
+.my-gallery img {
+    width: 100%;
+    height: auto;
+}
+.my-gallery figure {
+    display: block;
+    float: left;
+    margin: 1px;
+    flex: 1;
+    flex-basis: 15%;
+}
+.my-gallery figcaption {
+    display: none;
+}
+
+.gallery-items {
+    display: flex;
+}
+
+.gallery-items figure {
+    flex: 1;
+}
