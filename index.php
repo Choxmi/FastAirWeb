@@ -274,13 +274,22 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <img loading="lazy" src="assets/images/product_04.jpg" alt="">
+            <img loading="lazy" src="assets/images/management/img1.png" alt="">
+            <h3 style="margin-top: 10px;margin-bottom: 10px;background:#124734;color:#f7df39;font-weight: bold;text-align: center;">Erik Lensherr</h3>
+            <h5 style="margin-top: 10px;margin-bottom: 10px;color:#124734;font-style:italic;">Fictional character</h5>
+            <p style="margin:0">Magneto is a fictional character appearing in American comic books published by Marvel Comics, commonly in association with the X-Men. Created by writer Stan Lee and artist/co-writer Jack Kirby, the character first appears in The X-Men #1 as an adversary of the X-Men.</p>
           </div>
           <div class="col-md-4">
-            <img loading="lazy" src="assets/images/product_04.jpg" alt="">
+            <img loading="lazy" src="assets/images/management/img1.png" alt="">
+            <h3 style="margin-top: 10px;margin-bottom: 10px;background:#124734;color:#f7df39;font-weight: bold;text-align: center;">Wolverine</h3>
+            <h5 style="margin-top: 10px;margin-bottom: 10px;color:#124734;font-style:italic;">Fictional character</h5>
+            <p style="margin:0">James Howlett, also known as Logan or by his codename, Wolverine, is a fictional character from 20th Century Fox's superhero film series X-Men, portrayed by Hugh Jackman and based on the Marvel Comics.</p>
           </div>
           <div class="col-md-4">
-            <img loading="lazy" src="assets/images/product_04.jpg" alt="">
+            <img loading="lazy" src="assets/images/management/img1.png" alt="">
+            <h3 style="margin-top: 10px;margin-bottom: 10px;background:#124734;color:#f7df39;font-weight: bold;text-align: center;">Raven</h3>
+            <h5 style="margin-top: 10px;margin-bottom: 10px;color:#124734;font-style:italic;">Fictional character</h5>
+            <p style="margin:0">Mystique is a fictional character appearing in American comic books published by Marvel Comics, commonly in association with the X-Men. Created by artist David Cockrum and writer Chris Claremont, she first appeared in the comic book Ms. Marvel #16.</p>
           </div>
         </div>
       </div>
@@ -363,20 +372,6 @@
             <div class="col-lg-4 col-md-4 industry">
               <img loading="lazy" id="oil" src="assets/images/industries/oil.svg" alt="Oil and Gas">
               <h4>Oil and Gas</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-4 industry">
-              <img loading="lazy" src="assets/images/industries/genindustry.png" alt="">
-              <h4>General Industries</h4>
-            </div>
-            <div class="col-lg-4 col-md-4 industry">
-              <img loading="lazy" src="assets/images/industries/priindustry.png" alt="">
-              <h4>Primary Industries</h4>
-            </div>
-            <div class="col-lg-4 col-md-4 industry">
-              <img loading="lazy" src="assets/images/industries/process.png" alt="">
-              <h4>General Processing</h4>
             </div>
           </div>
         </div>
