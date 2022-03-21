@@ -226,38 +226,31 @@
 
       <div class="row" id="vision">
         <div class="col-md-12">
-          <div class="section-heading">
+          <div class="section-heading" style="display: flex; justify-content:space-between;">
             <h2>Vision & Mission</h2>
+            <h2>Our Values</h2>
           </div>
         </div>
-        <div class="col-md-6 right-bordered">
+
+        <div class="col-md-6 right-bordered" style="display: flex; flex-direction:column;justify-content:center">
           <div class="right-content right-aligned">
             <div style="display:flex;align-items:center;justify-content:flex-end;">
               <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:120px;">Vision</h4>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Sed voluptate nihil eum consectetur similique? Consectetur,
-              quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem
-              perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor
-              sit amet, consectetur adipisicing elit.<br><br>Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis
-              ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut,
-              in eum facere corrupti necessitatibus perspiciatis quis.</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="left-content">
-            <div style="display:flex;align-items:center;justify-content:flex-start;">
+              quod, incidunt, harum nisi dolores delectus</p>
+            <div style="display:flex;align-items:center;justify-content:flex-end;">
               <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:120px;">Mission</h4>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Sed voluptate nihil eum consectetur similique? Consectetur,
-              quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem
-              perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor
-              sit amet, consectetur adipisicing elit.<br><br>Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis
-              ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut,
-              in eum facere corrupti necessitatibus perspiciatis quis.</p>
+              quod, incidunt, harum nisi dolores delectus</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div style="display:flex;justify-content:center;">
+            <img src="/assets/images/values/ValueWheel.png" style="max-height: 60vh;width:auto" alt="Value wheel" />
           </div>
         </div>
       </div>
@@ -692,6 +685,33 @@
         <div class="col-md-12">
           <div class="section-heading">
             <h2>Logistics</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="owl-clients owl-carousel">
+            <div class="client-item">
+              <a href="http://www.tnt.com/webtracker/tracker.do?navigation=1&respLang=en&respCountry=AU&genericSiteIdent=" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-tnt.png" alt="1"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://www.dhl.com.au/en/express/tracking.html" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-dhl.png" alt="2"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://www.agilitylogistics.com.au/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-agility.png" alt="3"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://logwebprod.au.cevalogistics.com/vlvisibility/TrackAndTrace.aspx" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-ceva.png" alt="4"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://www.toll.com.au/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-toll.png" alt="5"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://auspost.com.au/track/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-auspost.png" alt="6"></a>
+            </div>
           </div>
         </div>
         <div class="col-md-12">
