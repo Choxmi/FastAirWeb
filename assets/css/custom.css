@@ -400,6 +400,22 @@ header .navbar {
 	background-position: center center;
 }
 
+.green-item-01 {
+	padding: 100px 0px;
+	background-image: url(../images/green/solar1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.green-item-02 {
+	padding: 100px 0px;
+	background-image: url(../images/green/solar2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 .owl-banner .owl-dots .owl-dot {
   border-radius: 3px;
 }
@@ -721,7 +737,28 @@ header .navbar {
 	padding-left: 13px;
 }
 
+.featured-list li a {
+	font-size: 14px;
+	color: #4a4a4a;
+	font-weight: 300;
+	transition: all .3s;
+	position: relative;
+	padding-left: 13px;
+}
+
 .best-features ul.featured-list li a:before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	display: inline-block;
+	background-color: #4a4a4a;
+	position: absolute;
+	left: 0;
+	transition: all .3s;
+	top: 8px;
+}
+
+.featured-list li a:before {
 	content: '';
 	width: 5px;
 	height: 5px;
@@ -1329,7 +1366,7 @@ footer .inner-content p a {
 
 .drop-row {
 	padding: 15px;
-	height: 180px;
+	height: auto;
 	background-color: #124734;
 }
 
@@ -1416,6 +1453,12 @@ footer .inner-content p a {
 	align-items: center;
 }
 
+.details {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+}
+
 
 /*----------------------------------RESPONSIVE CUSTOMIZATIONS----------------------------------*/
 
@@ -1491,6 +1534,16 @@ footer .inner-content p a {
 	.send-message .accordion {
 		margin-top: 30px;
 		margin-left: 0px;
+	}
+}
+
+@media (max-width: 1030px) {
+	.navbar .navbar-nav a.nav-link {
+		font-size: 9px;
+	}
+
+	.details {
+		display: none;
 	}
 }
 

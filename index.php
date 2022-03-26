@@ -66,9 +66,16 @@
 
   <!-- Header -->
   <header class="">
-    <a class="navbar-brand" href="index.html" style="position: absolute;padding-left: 25px;">
-      <img loading="lazy" src="./assets/images/logo.png" style="height: 70px;" />
-    </a>
+    <div style="display: flex;position: absolute;padding-left: 25px;">
+      <a class="navbar-brand" href="index.html">
+        <img loading="lazy" src="./assets/images/logo.png" style="height: 70px;" />
+      </a>
+      <div class="details">
+        <p style="margin: 0; font-weight: bold; color: #124734;">FASTAIR SERVICES PTY LTD</p>
+        <p style="margin: 0; color: #124734;font-style:italic;line-height:5px;font-size:10px;">GLOBAL PROCUREMENT & LOGISTICS</p>
+        <p style="margin: 0; color: #124734;font-style:italic;font-size:10px;">ESTABLISHED 1977</p>
+      </div>
+    </div>
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,36 +87,41 @@
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" id="drop-link" href="#corporate">About Us</a>
+              <a class="nav-link" id="drop-link" href="#our_business">About Us</a>
               <div class="row drop-row">
-                <div class="col-sm-4 right-bordered green-colored">
-                  <h2 class="about-header">About Us</h2>
+                <div class="col-sm-4 right-bordered green-colored" style="display:flex; align-items:center;">
+                  <h2>About Us</h2>
                 </div>
                 <div class="col-sm-4 grid-display green-colored">
-                  <a href="#corporate">Corporate Overview</a>
-                  <a href="#vision">Vision & Mission</a>
-                  <a href="#management">Management</a>
-                  <a href="#aim">We Aim to Provide</a>
-                </div>
-                <div class="col-sm-4 grid-display green-colored">
+                  <a href="#our_business">OUR BUSINESS</a>
                   <a href="#industries">Industries Serviced</a>
-                  <a href="#green">Fastair Green Zone</a>
+                  <a href="#vision">Vision & Mission</a>
                   <a href="#charities">FastAir Charities</a>
-                  <p>&nbsp;</p>
+                </div>
+                <div class="col-sm-4 grid-display green-colored">
+                  <a href="#aim">We Aim to Provide</a>
+                  <a href="#products">Products</a>
+                  <a href="#management">Management</a>
+                  <a href="#green">Fastair Green Zone</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#logistics">Logistics</a>
+              <div class="row drop-row">
+                <div class="col-sm-4 right-bordered green-colored" style="display:flex; align-items:center;">
+                  <h2>Logistics</h2>
+                </div>
+                <div class="col-sm-4 grid-display green-colored">
+                  <a href="#logistics">Packing & Creating</a>
+                </div>
+                <div class="col-sm-4 grid-display green-colored">
+                  <a href="#logistics">Export</a>
                 </div>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#products">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#business">Our Business</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#handicart">Handi-Cart</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#logistics">Logistics</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#gallery">Gallery</a>
@@ -186,15 +198,16 @@
       <br />
       <br /> -->
 
-      <div class="row" id="corporate">
+      <div class="row" id="our_business">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Corporate Overview</h2>
+            <h2>Our Business</h2>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="right-image">
+          <div class="right-image" style="position:relative">
             <img loading="lazy" src="./assets/images/logo.png" alt="">
+            <img src="/assets/images/overview/fourty.png" alt="Fourty years of experience" style="width: auto;max-height: 15vh; position: absolute; left: 0; top: 0;" />
           </div>
         </div>
         <div class="col-md-6">
@@ -210,12 +223,14 @@
               Product we offer are of high quality and keenly priced. New technology has been embraced and we are
               constantly upgrading our system to ensure that our efficiency is kept at peak levels.
             </p>
-            <ul class="social-icons">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-            </ul>
+            <div style="display: flex; justify-content:space-between">
+              <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -267,19 +282,19 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <img loading="lazy" src="assets/images/management/img1.png" alt="">
+            <img loading="lazy" src="assets/images/management/img1.png" style="padding: 0 15%;" alt="">
             <h3 style="margin-top: 10px;margin-bottom: 10px;background:#124734;color:#f7df39;font-weight: bold;text-align: center;">Erik Lensherr</h3>
             <h5 style="margin-top: 10px;margin-bottom: 10px;color:#124734;font-style:italic;">Fictional character</h5>
             <p style="margin:0">Magneto is a fictional character appearing in American comic books published by Marvel Comics, commonly in association with the X-Men. Created by writer Stan Lee and artist/co-writer Jack Kirby, the character first appears in The X-Men #1 as an adversary of the X-Men.</p>
           </div>
           <div class="col-md-4">
-            <img loading="lazy" src="assets/images/management/img1.png" alt="">
+            <img loading="lazy" src="assets/images/management/img1.png" style="padding: 0 15%;" alt="">
             <h3 style="margin-top: 10px;margin-bottom: 10px;background:#124734;color:#f7df39;font-weight: bold;text-align: center;">Wolverine</h3>
             <h5 style="margin-top: 10px;margin-bottom: 10px;color:#124734;font-style:italic;">Fictional character</h5>
             <p style="margin:0">James Howlett, also known as Logan or by his codename, Wolverine, is a fictional character from 20th Century Fox's superhero film series X-Men, portrayed by Hugh Jackman and based on the Marvel Comics.</p>
           </div>
           <div class="col-md-4">
-            <img loading="lazy" src="assets/images/management/img1.png" alt="">
+            <img loading="lazy" src="assets/images/management/img1.png" style="padding: 0 15%;" alt="">
             <h3 style="margin-top: 10px;margin-bottom: 10px;background:#124734;color:#f7df39;font-weight: bold;text-align: center;">Raven</h3>
             <h5 style="margin-top: 10px;margin-bottom: 10px;color:#124734;font-style:italic;">Fictional character</h5>
             <p style="margin:0">Mystique is a fictional character appearing in American comic books published by Marvel Comics, commonly in association with the X-Men. Created by artist David Cockrum and writer Chris Claremont, she first appeared in the comic book Ms. Marvel #16.</p>
@@ -369,110 +384,6 @@
           </div>
         </div>
       </div>
-
-      <br />
-      <br />
-      <br />
-
-      <div class="find-us" id="green">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="section-heading">
-                <h2 class="green-zone">Fastair Green Zone</h2>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="right-image">
-                <iframe width="100%" height="300px" src="https://www.youtube.com/embed/zCRKvDyyHmI" title="Green Zone Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <!-- <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d453478.8006575831!2d152.71300552810746!3d-27.38186310901794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91579aac93d233%3A0x402a35af3deaf40!2sBrisbane%20QLD%2C%20Australia!5e0!3m2!1sen!2slk!4v1613918942048!5m2!1sen!2slk" width="100%" height="330px" frameborder="0" style="border:0" allowfullscreen></iframe>
-              </div> -->
-            </div>
-            <div class="col-md-6 green-center">
-              <div class="left-content">
-                <ul class="featured-list">
-                  <li><a>Fully Solar powered</a></li>
-                  <li><a>Recyclable packaging: pallets, shrink wrapping, cartons, tape</a></li>
-                  <li><a>Waste recycling: Plastics, Bottle recycling, Composted food waste</a></li>
-                  <li><a>Environmentally responsible cleaning products</a></li>
-                  <li><a>Sustainable plantation sourced timber</a></li>
-                  <li><a>Staff green space</a></li>
-                  <li><a>Living garden for all: Flowers, herbs & fruit</a></li>
-                  <li><a>All led by our very own environmental scientist</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <br />
-      <br />
-      <br />
-
-      <div class="row" id="aim">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>FastAir Charities</h2>
-          </div>
-        </div>
-        <div class="col-md-4 charity">
-          <h4>Schools</h4>
-          <ul class="featured-list">
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Desks</a></li>
-            <li><a href="#">Chairs</a></li>
-            <li><a href="#">Early learning resources</a></li>
-            <li><a href="#">Shoes</a></li>
-          </ul>
-          <div class="banner">
-            <div class="owl-banner owl-carousel">
-              <div class="charity1-item-01">
-              </div>
-            </div>
-          </div>
-          <p><i>Book Donations Gusap</i></p>
-        </div>
-        <div class="col-md-4 charity">
-          <h4>Medical</h4>
-          <ul class="featured-list">
-            <li><a href="#">Wheelchairs</a></li>
-            <li><a href="#">Beds</a></li>
-            <li><a href="#">Equipment</a></li>
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Consumables</a></li>
-          </ul>
-          <div class="banner">
-            <div class="owl-banner owl-carousel">
-              <div class="charity2-item-01">
-              </div>
-              <div class="charity2-item-02">
-              </div>
-            </div>
-          </div>
-          <p><i>Medical Equipment Donations Popondetta</i></p>
-        </div>
-        <div class="col-md-4 charity">
-          <h4>Our amazing Donors</h4>
-          <ul class="featured-list">
-            <li><a href="#">Schools</a></li>
-            <li><a href="#">Libraries</a></li>
-            <li><a href="#">Colleges</a></li>
-            <li><a href="#">Individuals</a></li>
-            <li><a href="#">Doctors & Nurses</a></li>
-          </ul>
-          <div class="banner">
-            <div class="owl-banner owl-carousel">
-              <div class="charity3-item-01">
-              </div>
-            </div>
-          </div>
-          <p><i>Donations Furniture, Ramu</i></p>
-        </div>
-      </div>
-
     </div>
   </div>
 
@@ -486,6 +397,33 @@
         <div class="col-md-12">
           <div class="section-heading">
             <h2>Products</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="owl-clients owl-carousel">
+            <div class="client-item">
+              <a href="http://www.tnt.com/webtracker/tracker.do?navigation=1&respLang=en&respCountry=AU&genericSiteIdent=" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-tnt.png" alt="1"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://www.dhl.com.au/en/express/tracking.html" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-dhl.png" alt="2"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://www.agilitylogistics.com.au/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-agility.png" alt="3"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://logwebprod.au.cevalogistics.com/vlvisibility/TrackAndTrace.aspx" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-ceva.png" alt="4"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://www.toll.com.au/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-toll.png" alt="5"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://auspost.com.au/track/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-auspost.png" alt="6"></a>
+            </div>
           </div>
         </div>
         <div class="col-md-12">
@@ -560,7 +498,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Our Business</h2>
+            <h2>Packing & Creating</h2>
           </div>
         </div>
         <div class="col-md-12">
@@ -685,33 +623,6 @@
         <div class="col-md-12">
           <div class="section-heading">
             <h2>Logistics</h2>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="owl-clients owl-carousel">
-            <div class="client-item">
-              <a href="http://www.tnt.com/webtracker/tracker.do?navigation=1&respLang=en&respCountry=AU&genericSiteIdent=" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-tnt.png" alt="1"></a>
-            </div>
-
-            <div class="client-item">
-              <a href="http://www.dhl.com.au/en/express/tracking.html" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-dhl.png" alt="2"></a>
-            </div>
-
-            <div class="client-item">
-              <a href="http://www.agilitylogistics.com.au/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-agility.png" alt="3"></a>
-            </div>
-
-            <div class="client-item">
-              <a href="http://logwebprod.au.cevalogistics.com/vlvisibility/TrackAndTrace.aspx" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-ceva.png" alt="4"></a>
-            </div>
-
-            <div class="client-item">
-              <a href="http://www.toll.com.au/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-toll.png" alt="5"></a>
-            </div>
-
-            <div class="client-item">
-              <a href="http://auspost.com.au/track/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-auspost.png" alt="6"></a>
-            </div>
           </div>
         </div>
         <div class="col-md-12">
@@ -841,6 +752,117 @@
   <br />
   <br />
   <br />
+
+  <div class="find-us" id="green">
+    <div class="container" style="max-width: 90%;">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2 class="green-zone">Fastair Green Zone</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="right-image">
+            <!-- <iframe width="100%" height="300px" src="https://www.youtube.com/embed/zCRKvDyyHmI" title="Green Zone Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <div class="banner" style="padding-top: 0;">
+              <div class="owl-banner owl-carousel">
+                <div class="green-item-01">
+                </div>
+                <div class="green-item-02">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d453478.8006575831!2d152.71300552810746!3d-27.38186310901794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91579aac93d233%3A0x402a35af3deaf40!2sBrisbane%20QLD%2C%20Australia!5e0!3m2!1sen!2slk!4v1613918942048!5m2!1sen!2slk" width="100%" height="330px" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div> -->
+        </div>
+        <div class="col-md-6 green-center">
+          <div class="left-content">
+            <ul class="featured-list">
+              <li><a>Fully Solar powered</a></li>
+              <li><a>Recyclable packaging: pallets, shrink wrapping, cartons, tape</a></li>
+              <li><a>Waste recycling: Plastics, Bottle recycling, Composted food waste</a></li>
+              <li><a>Environmentally responsible cleaning products</a></li>
+              <li><a>Sustainable plantation sourced timber</a></li>
+              <li><a>Staff green space</a></li>
+              <li><a>Living garden for all: Flowers, herbs & fruit</a></li>
+              <li><a>All led by our very own environmental scientist</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br />
+  <br />
+  <br />
+
+  <div id="charities">
+    <div class="container" style="max-width: 90%;">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>FastAir Charities</h2>
+          </div>
+        </div>
+        <div class="col-md-4 charity">
+          <h4>Schools</h4>
+          <ul class="featured-list">
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Desks</a></li>
+            <li><a href="#">Chairs</a></li>
+            <li><a href="#">Early learning resources</a></li>
+            <li><a href="#">Shoes</a></li>
+          </ul>
+          <div class="banner">
+            <div class="owl-banner owl-carousel">
+              <div class="charity1-item-01">
+              </div>
+            </div>
+          </div>
+          <p><i>Book Donations Gusap</i></p>
+        </div>
+        <div class="col-md-4 charity">
+          <h4>Medical</h4>
+          <ul class="featured-list">
+            <li><a href="#">Wheelchairs</a></li>
+            <li><a href="#">Beds</a></li>
+            <li><a href="#">Equipment</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Consumables</a></li>
+          </ul>
+          <div class="banner">
+            <div class="owl-banner owl-carousel">
+              <div class="charity2-item-01">
+              </div>
+              <div class="charity2-item-02">
+              </div>
+            </div>
+          </div>
+          <p><i>Medical Equipment Donations Popondetta</i></p>
+        </div>
+        <div class="col-md-4 charity">
+          <h4>Our amazing Donors</h4>
+          <ul class="featured-list">
+            <li><a href="#">Schools</a></li>
+            <li><a href="#">Libraries</a></li>
+            <li><a href="#">Colleges</a></li>
+            <li><a href="#">Individuals</a></li>
+            <li><a href="#">Doctors & Nurses</a></li>
+          </ul>
+          <div class="banner">
+            <div class="owl-banner owl-carousel">
+              <div class="charity3-item-01">
+              </div>
+            </div>
+          </div>
+          <p><i>Donations Furniture, Ramu</i></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Contact Starts here -->
   <div class="find-us" id="contact">
