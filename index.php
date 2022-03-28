@@ -71,9 +71,9 @@
         <img loading="lazy" src="./assets/images/logo.png" style="height: 70px;" />
       </a>
       <div class="details">
-        <p style="margin: 0; font-weight: bold; color: #124734;">FASTAIR SERVICES PTY LTD</p>
-        <p style="margin: 0; color: #124734;font-style:italic;line-height:5px;font-size:10px;">GLOBAL PROCUREMENT & LOGISTICS</p>
-        <p style="margin: 0; color: #124734;font-style:italic;font-size:10px;">ESTABLISHED 1977</p>
+        <p class="details-title">FASTAIR SERVICES PTY LTD</p>
+        <p class="details-sub">GLOBAL PROCUREMENT & LOGISTICS</p>
+        <p class="details-sub">ESTABLISHED 1977</p>
       </div>
     </div>
     <nav class="navbar navbar-expand-lg">
@@ -534,6 +534,53 @@
 
   <!-- Business Ends here-->
 
+  <!-- Logistics Starts here -->
+
+  <div class="logistics" id="logistics">
+    <div class="container" style="max-width: 90%;">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Logistics</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <p>We despatch airfreight daily and seafreight weekly to all Asia/Pacific destinations. Large volumes of freight has resulted in cost effective pricing for all of our clients. Direct electronic link to Australian Customs allows us to obtain Export Clearance within minutes, expediting goods without delay. Our email despatch advice with invoices ensures early customs clearance on arrival of goods. Online track and trace can assist those who purchase from us to plan the arrival of their orders.</p>
+          <p>Click on the logos of the freight companies to track your order.</p>
+        </div>
+        <div class="col-md-12">
+          <div class="owl-clients owl-carousel">
+            <div class="client-item">
+              <a href="http://www.tnt.com/webtracker/tracker.do?navigation=1&respLang=en&respCountry=AU&genericSiteIdent=" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-tnt.png" alt="1"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://www.dhl.com.au/en/express/tracking.html" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-dhl.png" alt="2"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://www.agilitylogistics.com.au/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-agility.png" alt="3"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://logwebprod.au.cevalogistics.com/vlvisibility/TrackAndTrace.aspx" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-ceva.png" alt="4"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://www.toll.com.au/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-toll.png" alt="5"></a>
+            </div>
+
+            <div class="client-item">
+              <a href="http://auspost.com.au/track/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-auspost.png" alt="6"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Logistics Ends here -->
+
   <!-- Handicart Starts here -->
 
   <div class="handicart" id="handicart">
@@ -614,55 +661,6 @@
   </div>
 
   <!-- Handicart Ends here -->
-
-  <!-- Logistics Starts here -->
-
-  <div class="logistics" id="logistics">
-    <div class="container" style="max-width: 90%;">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Logistics</h2>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.
-          </p>
-        </div>
-        <div class="col-md-12">
-          <div class="owl-clients owl-carousel">
-            <div class="client-item">
-              <a href="http://www.tnt.com/webtracker/tracker.do?navigation=1&respLang=en&respCountry=AU&genericSiteIdent=" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-tnt.png" alt="1"></a>
-            </div>
-
-            <div class="client-item">
-              <a href="http://www.dhl.com.au/en/express/tracking.html" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-dhl.png" alt="2"></a>
-            </div>
-
-            <div class="client-item">
-              <a href="http://www.agilitylogistics.com.au/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-agility.png" alt="3"></a>
-            </div>
-
-            <div class="client-item">
-              <a href="http://logwebprod.au.cevalogistics.com/vlvisibility/TrackAndTrace.aspx" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-ceva.png" alt="4"></a>
-            </div>
-
-            <div class="client-item">
-              <a href="http://www.toll.com.au/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-toll.png" alt="5"></a>
-            </div>
-
-            <div class="client-item">
-              <a href="http://auspost.com.au/track/" target="_blank"><img loading="lazy" src="assets/images/logistics/logo-auspost.png" alt="6"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Logistics Ends here -->
 
   <!-- Gallery Starts here -->
 

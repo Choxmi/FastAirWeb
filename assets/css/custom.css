@@ -1459,6 +1459,22 @@ footer .inner-content p a {
 	justify-content: center;
 }
 
+.details-title {
+	margin: 0;
+	font-weight: bold; 
+	color: #124734;
+	font-size: 18px;
+	line-height: 15px;
+}
+
+.details-sub {
+	margin: 0;
+	color: #124734;
+	font-style:italic;
+	line-height:12px;
+	font-size:12px;
+}
+
 
 /*----------------------------------RESPONSIVE CUSTOMIZATIONS----------------------------------*/
 
@@ -1542,8 +1558,12 @@ footer .inner-content p a {
 		font-size: 9px;
 	}
 
-	.details {
-		display: none;
+	.details-title {
+		font-size: 15px;
+	}
+	
+	.details-sub {
+		font-size:10px;
 	}
 }
 
@@ -1599,5 +1619,8 @@ footer .inner-content p a {
 		position: relative;
 		right: 0;
 		bottom: 0;
+	}
+	.details {
+		display: none;
 	}
 }
