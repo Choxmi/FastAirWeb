@@ -201,40 +201,40 @@ jQuery(document).ready(function ($) {
 
     $('#okBtn').click(async () => {
         console.log("FORM PARAM", formParam);
-        let params = {};
+        var data = new FormData()
         for (let i = 0; i < formParam.length; i++) {
             switch (formParam[i].name) {
 
                 case 'cname':
-                    params.name = formParam[i].value;
+                    data.append('name',formParam[i].value);
                     break;
 
                 case 'cnum':
-                    params.mobile = formParam[i].value;
+                    data.append('mobile',formParam[i].value);
                     break;
 
                 case 'cemail':
-                    params.email = formParam[i].value;
+                    data.append('email',formParam[i].value);
                     break;
 
                 case 'caddr':
-                    params.address = formParam[i].value;
+                    data.append('address',formParam[i].value);
                     break;
 
                 case 'ccompany':
-                    params.company = formParam[i].value;
+                    data.append('company',formParam[i].value);
                     break;
 
                 case 'cfax':
-                    params.fax = formParam[i].value;
+                    data.append('fax',formParam[i].value);
                     break;
 
                 case 'ccode':
-                    params.customer_code = formParam[i].value;
+                    data.append('customer_code',formParam[i].value);
                     break;
 
                 case 'item_lines':
-                    params.items = formParam[i].value;
+                    data.append('items',formParam[i].value);
                     break;
 
                 default:
@@ -242,13 +242,36 @@ jQuery(document).ready(function ($) {
             }
         }
 
-        fetch("/api/b2nLNxUEZR", {
-            method: "POST",
-            body: JSON.stringify(params)
+        for(let i = 0; i < reqItems.length; i++) {
+            if(reqItems[i].attachment) {
+                data.append(`attachment_${i}`,reqItems[i].attachment);
+            }
+        }
+
+        console.log("DATA", data);
+
+        $("#preloader").animate({
+            'opacity': '0'
+        }, 600, function () {});
+
+        fetch("/api/requestQuote", {
+            method: 'POST',
+            body: data
         })
-            .then(response => response.json())
-            .then(result => console.log(result))
-            .catch(error => console.log('error', error));
+        .then(response => response.json())
+        .then(result => {
+            $("#preloader").css("visibility", "hidden").fadeOut();
+            console.log(result);
+        })
+        .catch(error => console.log('error', error));
+
+        // fetch("/api/b2nLNxUEZR", {
+        //     method: "POST",
+        //     body: JSON.stringify(params)
+        // })
+        //     .then(response => response.json())
+        //     .then(result => console.log(result))
+        //     .catch(error => console.log('error', error));
     });
 
     $.getJSON("assets/json/gallery.json", function (json) {
@@ -318,59 +341,59 @@ jQuery(document).ready(function ($) {
         renderPage(0);
     });
 
-    $( "#trolleyimage" ).hover(
-        function() {
-          $( this ).attr( "src", "assets/images/handicartlogohover.png");
-        }, function() {
-          $( this ).attr( "src", "assets/images/handicartlogo.png");
+    $("#trolleyimage").hover(
+        function () {
+            $(this).attr("src", "assets/images/handicartlogohover.png");
+        }, function () {
+            $(this).attr("src", "assets/images/handicartlogo.png");
         }
     );
 
-    $( "#mining" ).hover(
-        function() {
-          $( this ).attr( "src", "assets/images/industries/mining_green.svg");
-        }, function() {
-          $( this ).attr( "src", "assets/images/industries/mining.svg");
+    $("#mining").hover(
+        function () {
+            $(this).attr("src", "assets/images/industries/mining_green.svg");
+        }, function () {
+            $(this).attr("src", "assets/images/industries/mining.svg");
         }
     );
 
-    $( "#engineering" ).hover(
-        function() {
-          $( this ).attr( "src", "assets/images/industries/engineering_green.svg");
-        }, function() {
-          $( this ).attr( "src", "assets/images/industries/engineering.svg");
+    $("#engineering").hover(
+        function () {
+            $(this).attr("src", "assets/images/industries/engineering_green.svg");
+        }, function () {
+            $(this).attr("src", "assets/images/industries/engineering.svg");
         }
     );
 
-    $( "#transportation" ).hover(
-        function() {
-          $( this ).attr( "src", "assets/images/industries/transport_green.svg");
-        }, function() {
-          $( this ).attr( "src", "assets/images/industries/transport.svg");
+    $("#transportation").hover(
+        function () {
+            $(this).attr("src", "assets/images/industries/transport_green.svg");
+        }, function () {
+            $(this).attr("src", "assets/images/industries/transport.svg");
         }
     );
 
-    $( "#marine" ).hover(
-        function() {
-          $( this ).attr( "src", "assets/images/industries/marine_green.svg");
-        }, function() {
-          $( this ).attr( "src", "assets/images/industries/marine.svg");
+    $("#marine").hover(
+        function () {
+            $(this).attr("src", "assets/images/industries/marine_green.svg");
+        }, function () {
+            $(this).attr("src", "assets/images/industries/marine.svg");
         }
     );
 
-    $( "#agri" ).hover(
-        function() {
-          $( this ).attr( "src", "assets/images/industries/agri_green.svg");
-        }, function() {
-          $( this ).attr( "src", "assets/images/industries/agri.svg");
+    $("#agri").hover(
+        function () {
+            $(this).attr("src", "assets/images/industries/agri_green.svg");
+        }, function () {
+            $(this).attr("src", "assets/images/industries/agri.svg");
         }
     );
 
-    $( "#oil" ).hover(
-        function() {
-          $( this ).attr( "src", "assets/images/industries/oil_green.svg");
-        }, function() {
-          $( this ).attr( "src", "assets/images/industries/oil.svg");
+    $("#oil").hover(
+        function () {
+            $(this).attr("src", "assets/images/industries/oil_green.svg");
+        }, function () {
+            $(this).attr("src", "assets/images/industries/oil.svg");
         }
     );
 
@@ -443,12 +466,15 @@ let filterPage = (prefix) => {
 let addToRequest = () => {
     if ($('#cquantity').val() !== null && $('#cquantity').val() !== ""
         && $('#cdescription').val() !== null && $('#cdescription').val() !== "") {
+        const file = $('#cattachment').prop('files').length > 0 ? $('#cattachment').prop('files')[0] : null;
+        console.log("Attachment", file);
         reqItems.push({
             "quantity": $('#cquantity').val(),
             "part": $('#cpart').val(),
             "stock": $('#cstock').val(),
             "units": $('#cunits').val(),
-            "description": $('#cdescription').val()
+            "description": $('#cdescription').val(),
+            "attachment": file
         });
         $('#item_lines').val(JSON.stringify(reqItems));
         $('#cquantity').val('');
@@ -456,6 +482,7 @@ let addToRequest = () => {
         $('#cstock').val('');
         $('#cunits').val('');
         $('#cdescription').val('');
+        $('#cattachment').val(null);
         renderTable();
     } else {
         alert("Quantity, Description required");
@@ -471,7 +498,7 @@ let renderTable = () => {
         let col2 = $('<div></div>').html(reqItems[j].quantity);
         let col3 = $('<div></div>').html(reqItems[j].part);
         let col4 = $('<div></div>').html(reqItems[j].stock);
-        let col5 = $('<div></div>').html(reqItems[j].units);
+        let col5 = $('<div style="display:flex;justify-content:space-between;margin-right:5px;align-items:center;"></div>').html('<p style="color:white;">' + reqItems[j].units + '</p>' + (reqItems[j].attachment ? '<i class="fa fa-paperclip" aria-hidden="true"></i>' : ''));
         let col6 = $('<div></div>').addClass('col-small').html($('<i class="fas fa-times-circle btn-close"></i>').click(() => { removeItem(j) }));
         itemRow.append(col1, col2, col3, col4, col5, col6);
         $('#tbl-content').append(itemRow);

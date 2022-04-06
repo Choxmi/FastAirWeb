@@ -66,9 +66,9 @@
 
   <!-- Header -->
   <header class="">
-    <div style="display: flex;position: absolute;padding-left: 25px;">
+    <div style="display: flex;position: absolute;padding-left: 25px;height: 100%;">
       <a class="navbar-brand" href="index.html">
-        <img loading="lazy" src="./assets/images/logo.png" style="height: 70px;" />
+        <img loading="lazy" src="./assets/images/logo.png" style="height: 100%;" />
       </a>
       <div class="details">
         <p class="details-title">FASTAIR SERVICES PTY LTD</p>
@@ -76,12 +76,12 @@
         <p class="details-sub">ESTABLISHED 1977</p>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg" style="height: 100%;">
+      <div class="container" style="height: 100%;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse" id="navbarResponsive" style="height: 100%;">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#home">Home</a>
@@ -95,7 +95,7 @@
                 <div class="col-sm-4 grid-display green-colored">
                   <a href="#our_business">OUR BUSINESS</a>
                   <a href="#industries">Industries Serviced</a>
-                  <a href="#vision">Vision & Mission</a>
+                  <a href="#history">History</a>
                   <a href="#charities">FastAir Charities</a>
                 </div>
                 <div class="col-sm-4 grid-display green-colored">
@@ -207,7 +207,6 @@
         <div class="col-md-6">
           <div class="right-image" style="position:relative">
             <img loading="lazy" src="./assets/images/logo.png" alt="">
-            <img src="/assets/images/overview/fourty.png" alt="Fourty years of experience" style="width: auto;max-height: 15vh; position: absolute; left: 0; top: 0;" />
           </div>
         </div>
         <div class="col-md-6">
@@ -231,6 +230,7 @@
                 <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
               </ul>
             </div>
+            <img src="/assets/images/overview/established.png" alt="Fourty years of experience" style="width: auto;max-height: 25vh; position: absolute; right: 0; bottom: 0;" />
           </div>
         </div>
       </div>
@@ -239,33 +239,59 @@
       <br />
       <br />
 
-      <div class="row" id="vision">
+      <div class="row" id="history">
         <div class="col-md-12">
           <div class="section-heading" style="display: flex; justify-content:space-between;">
-            <h2>Vision & Mission</h2>
-            <h2>Our Values</h2>
+            <h2>History</h2>
           </div>
         </div>
 
-        <div class="col-md-6 right-bordered" style="display: flex; flex-direction:column;justify-content:center">
-          <div class="right-content right-aligned">
-            <div style="display:flex;align-items:center;justify-content:flex-end;">
-              <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:120px;">Vision</h4>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+        <div class="col-md-6 right-bordered">
+          <div style="display:flex;justify-content:center;flex-direction:column;">
+            <p>FastAir History Description Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Sed voluptate nihil eum consectetur similique? Consectetur,
               quod, incidunt, harum nisi dolores delectus</p>
-            <div style="display:flex;align-items:center;justify-content:flex-end;">
-              <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:120px;">Mission</h4>
+            <div style="display:flex;justify-content:center;">
+              <img src="/assets/images/values/pillars.jpg" style="max-height: 50vh;width:auto;" alt="Pillars" />
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Sed voluptate nihil eum consectetur similique? Consectetur,
-              quod, incidunt, harum nisi dolores delectus</p>
           </div>
         </div>
-        <div class="col-md-6">
-          <div style="display:flex;justify-content:center;">
-            <img src="/assets/images/values/ValueWheel.png" style="max-height: 60vh;width:auto" alt="Value wheel" />
+
+        <div class="col-md-6" style="display: flex; flex-direction:column;justify-content:center">
+          <div class="right-content">
+            <p>Celebrating the people of FastAir. Our team here at FastAir have helped the company
+              to succeed and continue to grow throughout the years. There are a few sneak peak of our longest staff,</p>
+            <div style="display: flex;margin-bottom:10px;">
+              <div style="width: 50%;margin:auto;text-align:center;">
+                <img src="/assets/images/team/team1.png" style="width: 40%;height:auto;" alt="Team member 1" />
+              </div>
+              <div style="display:flex;justify-content:center;width:50%;flex-direction:column;">
+                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Team Member1 name</h4>
+                <p style="padding: 0;margin: 0;color: #124734;">5 Years of service</p>
+                <p style="padding: 0;margin: 0;color: #124734;">Assistant Manager</p>
+              </div>
+            </div>
+            <div style="display: flex;margin-bottom:10px;">
+              <div style="display:flex;justify-content:center;width:50%;flex-direction:column;">
+                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Team Member1 name</h4>
+                <p style="padding: 0;margin: 0;color: #124734;">5 Years of service</p>
+                <p style="padding: 0;margin: 0;color: #124734;">Assistant Manager</p>
+              </div>
+              <div style="width: 50%;margin:auto;text-align:center;">
+                <img src="/assets/images/team/team1.png" style="width: 40%;height:auto;" alt="Team member 1" />
+              </div>
+            </div>
+            <div style="display: flex;margin-bottom:10px;">
+              <div style="width: 50%;margin:auto;text-align:center;">
+                <img src="/assets/images/team/team1.png" style="width: 40%;height:auto;" alt="Team member 1" />
+              </div>
+              <div style="display:flex;justify-content:center;width:50%;flex-direction:column;">
+                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Team Member1 name</h4>
+                <p style="padding: 0;margin: 0;color: #124734;">5 Years of service</p>
+                <p style="padding: 0;margin: 0;color: #124734;">Assistant Manager</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1045,7 +1071,10 @@
               <label for="cdescription">Description: * </label>
               <input id="cdescription" type="text" name="cdescription">
 
-              <div class="row" style="margin-top: 5px;">
+              <label for="cattachment">Attachment: * </label>
+              <input id="cattachment" type="file" name="cattachment">
+
+              <div class="row" style="margin-top: 5px;margin-bottom: 10px;">
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                   <button type="button" class="add-req" onclick="addToRequest()">Add To Request</button>

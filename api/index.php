@@ -6,6 +6,9 @@ switch ($request) {
     case '/api/b2nLNxUEZR' :
         require __DIR__ . '/sendEmail.php';
         break;
+    case '/api/requestQuote' :
+        require __DIR__ . '/requestQuote.php';
+        break;
     default:
         http_response_code(404);
         require __DIR__ . '/404.php';
