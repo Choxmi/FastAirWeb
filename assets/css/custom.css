@@ -15,7 +15,7 @@ body {
   background-size: cover;
 }
 p {
-	margin-bottom: 0px;
+	margin-bottom: 5px;
 	font-size: 14px;
 	font-weight: 300;
 	color: #4a4a4a;
@@ -79,7 +79,7 @@ a.filled-button:hover {
 
 .section-heading {
 	text-align: left;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	border-bottom: 1px solid #eee;
 }
 
@@ -87,8 +87,9 @@ a.filled-button:hover {
 	font-size: 28px;
 	font-weight: 600;
 	color: #1e1e1e;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
+	margin-top: 20px;
 }
 
 .products-heading {
@@ -633,7 +634,7 @@ header .navbar {
 	color: #f7df39;
 }
 
-.best-features h4 {
+h4 {
 	font-size: 17px;
 	color: #124734;
 	margin-bottom: 10px;
@@ -1195,7 +1196,7 @@ footer .inner-content p a {
   }
 
   .industry img {
-	padding: 50px;
+	padding: 5px;
   }
 
   .background-header {
