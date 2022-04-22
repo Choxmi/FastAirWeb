@@ -191,8 +191,6 @@
             <p style="margin-bottom: 5px;">Fastair Services Pty Ltd offers a "One Stop Shop" procurement service for companies throughout the Asia/Pacific region. We are able to source and supply, a wide range of products across many industries, with our main focus being, engineering supplies, electrical. safety valves, pipes, fitting, pumps, steel, electric motors, machinery, generators, compressors, diesel engines, automotive parts and more.
               We dispatch items daily to Papua New Guinea, Indonesia, Solomon Island, Fiji, Vanuatu, New Caledonia and other countries in Pacific. We provide personalized service, special packing, crating, freight consolidation and logistics. With highly develop digital invoicing, labelling and order tracking system, Fastair able to fast-forward your order to you.
               <br>
-              <br>
-              I think we are cover up with 90% of the website now. Yay!!, chathu could you please check with your friend and let me know whether he need anything else apart from the below mention points.
             </p>
             <div style="display: flex; justify-content:space-between">
               <ul class="social-icons">
