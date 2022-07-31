@@ -180,8 +180,8 @@
             <h2>Our Business</h2>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="right-image" style="position:relative">
+        <div class="col-md-4 right-image">
+          <div style="position:relative">
             <img loading="lazy" src="./assets/images/logo.png" alt="" style="width: 100%;">
           </div>
         </div>
@@ -199,7 +199,7 @@
                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
               </ul>
-              <img src="/assets/images/overview/established.png" alt="Fourty years of experience" style="width: auto;max-height: 20vh;" />
+              <img src="/assets/images/overview/established.png" alt="Fourty years of experience" class="established" />
             </div>
           </div>
         </div>
@@ -518,42 +518,20 @@
               <div style="width: 30%;margin:auto;text-align:center;">
                 <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
               </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Susan Krone</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">40 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              <div class="employee">
+                <h4 class="employee-name">Susan Krone</h4>
+                <h4 class="employee-service">40 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
               </div>
             </div>
             <div class="col-md-6" style="display: flex;margin-bottom:10px;">
               <div style="width: 30%;margin:auto;text-align:center;">
                 <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
               </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Robyn Price</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">28 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
-              <div style="width: 30%;margin:auto;text-align:center;">
-                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
-              </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Chris Nichols</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">28 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
-              </div>
-            </div>
-            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
-              <div style="width: 30%;margin:auto;text-align:center;">
-                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
-              </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Sherrie Klein</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">25 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              <div class="employee">
+                <h4 class="employee-name">Robyn Price</h4>
+                <h4 class="employee-service">28 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
               </div>
             </div>
           </div>
@@ -562,42 +540,20 @@
               <div style="width: 30%;margin:auto;text-align:center;">
                 <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
               </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Aidan Fountain</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">18 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              <div class="employee">
+                <h4 class="employee-name">Chris Nichols</h4>
+                <h4 class="employee-service">28 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
               </div>
             </div>
             <div class="col-md-6" style="display: flex;margin-bottom:10px;">
               <div style="width: 30%;margin:auto;text-align:center;">
                 <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
               </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Tricia Baines</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">18 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
-              <div style="width: 30%;margin:auto;text-align:center;">
-                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
-              </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Lachlan Clapshaw</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">15 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
-              </div>
-            </div>
-            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
-              <div style="width: 30%;margin:auto;text-align:center;">
-                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
-              </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Margaret Walker</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">15 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              <div class="employee">
+                <h4 class="employee-name">Sherrie Klein</h4>
+                <h4 class="employee-service">25 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
               </div>
             </div>
           </div>
@@ -606,42 +562,20 @@
               <div style="width: 30%;margin:auto;text-align:center;">
                 <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
               </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Richard Cunha</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">13 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              <div class="employee">
+                <h4 class="employee-name">Aidan Fountain</h4>
+                <h4 class="employee-service">18 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
               </div>
             </div>
             <div class="col-md-6" style="display: flex;margin-bottom:10px;">
               <div style="width: 30%;margin:auto;text-align:center;">
                 <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
               </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Mathew John</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">13 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
-              <div style="width: 30%;margin:auto;text-align:center;">
-                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
-              </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Joel Klein</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">12 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
-              </div>
-            </div>
-            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
-              <div style="width: 30%;margin:auto;text-align:center;">
-                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
-              </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Susan Krone</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">40 Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              <div class="employee">
+                <h4 class="employee-name">Tricia Baines</h4>
+                <h4 class="employee-service">18 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
               </div>
             </div>
           </div>
@@ -650,20 +584,20 @@
               <div style="width: 30%;margin:auto;text-align:center;">
                 <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
               </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Wayne</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">10+ Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              <div class="employee">
+                <h4 class="employee-name">Lachlan Clapshaw</h4>
+                <h4 class="employee-service">15 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
               </div>
             </div>
             <div class="col-md-6" style="display: flex;margin-bottom:10px;">
               <div style="width: 30%;margin:auto;text-align:center;">
                 <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
               </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Cathy</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">10+ Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              <div class="employee">
+                <h4 class="employee-name">Margaret Walker</h4>
+                <h4 class="employee-service">15 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
               </div>
             </div>
           </div>
@@ -672,10 +606,76 @@
               <div style="width: 30%;margin:auto;text-align:center;">
                 <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
               </div>
-              <div style="display:flex;justify-content:center;width:70%;flex-direction:column;">
-                <h4 style="padding: 5px 10px;color: #f7df39;background:#124734;width:100%;margin:0;">Rachel</h4>
-                <h4 style="color: #124734;font-size:14px; margin-bottom: 5px; margin-top: 5px;">10+ Years of service</h4>
-                <p style="padding: 0;margin: 0;color: #124734;font-size:12px;line-height:15px;">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              <div class="employee">
+                <h4 class="employee-name">Richard Cunha</h4>
+                <h4 class="employee-service">13 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              </div>
+            </div>
+            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
+              <div style="width: 30%;margin:auto;text-align:center;">
+                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
+              </div>
+              <div class="employee">
+                <h4 class="employee-name">Mathew John</h4>
+                <h4 class="employee-service">13 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
+              <div style="width: 30%;margin:auto;text-align:center;">
+                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
+              </div>
+              <div class="employee">
+                <h4 class="employee-name">Joel Klein</h4>
+                <h4 class="employee-service">12 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              </div>
+            </div>
+            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
+              <div style="width: 30%;margin:auto;text-align:center;">
+                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
+              </div>
+              <div class="employee">
+                <h4 class="employee-name">Susan Krone</h4>
+                <h4 class="employee-service">40 Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
+              <div style="width: 30%;margin:auto;text-align:center;">
+                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
+              </div>
+              <div class="employee">
+                <h4 class="employee-name">Wayne</h4>
+                <h4 class="employee-service">10+ Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              </div>
+            </div>
+            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
+              <div style="width: 30%;margin:auto;text-align:center;">
+                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
+              </div>
+              <div class="employee">
+                <h4 class="employee-name">Cathy</h4>
+                <h4 class="employee-service">10+ Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6" style="display: flex;margin-bottom:10px;">
+              <div style="width: 30%;margin:auto;text-align:center;">
+                <img src="/assets/images/team/team1.png" style="width: 80%;height:auto;" alt="Team member 1" />
+              </div>
+              <div class="employee">
+                <h4 class="employee-name">Rachel</h4>
+                <h4 class="employee-service">10+ Years of service</h4>
+                <p class="employee-description">Chris started working as a Administration Manager  28 years ago. Chris has a versatile skill set and is adaptable by nature; he has held many different positions within the company during his time at Fallshaw and is the in-house “guru” for technical product knowledge. Chris also works closely with our Managing Director, Accounts Department, Logistics Manager and Warehouse Manager to ensure operations run smoothly on the day-to-day.</p>
               </div>
             </div>
           </div>
