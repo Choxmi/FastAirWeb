@@ -274,7 +274,7 @@ jQuery(document).ready(function ($) {
         //     .catch(error => console.log('error', error));
     });
 
-    $.getJSON("assets/json/gallery.json", function (json) {
+    $.getJSON("/assets/json/gallery.json", function (json) {
         let gallery = document.getElementById("gallery_inner");
         for (let i = 0; i < json.length; i++) {
             let fig = document.createElement('figure');
@@ -305,7 +305,7 @@ jQuery(document).ready(function ($) {
         }
     });
 
-    $.getJSON("assets/json/products.json", function (json) {
+    $.getJSON("/assets/json/products.json", function (json) {
         retrieved = json;
         let counter = 0;
         let page = [];
@@ -343,57 +343,57 @@ jQuery(document).ready(function ($) {
 
     $("#trolleyimage").hover(
         function () {
-            $(this).attr("src", "assets/images/handicartlogohover.png");
+            $(this).attr("src", "/assets/images/handicartlogohover.png");
         }, function () {
-            $(this).attr("src", "assets/images/handicartlogo.png");
+            $(this).attr("src", "/assets/images/handicartlogo.png");
         }
     );
 
     $("#mining").hover(
         function () {
-            $(this).attr("src", "assets/images/industries/mining_green.svg");
+            $(this).attr("src", "/assets/images/industries/mining_green.svg");
         }, function () {
-            $(this).attr("src", "assets/images/industries/mining.svg");
+            $(this).attr("src", "/assets/images/industries/mining.svg");
         }
     );
 
     $("#engineering").hover(
         function () {
-            $(this).attr("src", "assets/images/industries/engineering_green.svg");
+            $(this).attr("src", "/assets/images/industries/engineering_green.svg");
         }, function () {
-            $(this).attr("src", "assets/images/industries/engineering.svg");
+            $(this).attr("src", "/assets/images/industries/engineering.svg");
         }
     );
 
     $("#transportation").hover(
         function () {
-            $(this).attr("src", "assets/images/industries/transport_green.svg");
+            $(this).attr("src", "/assets/images/industries/transport_green.svg");
         }, function () {
-            $(this).attr("src", "assets/images/industries/transport.svg");
+            $(this).attr("src", "/assets/images/industries/transport.svg");
         }
     );
 
     $("#marine").hover(
         function () {
-            $(this).attr("src", "assets/images/industries/marine_green.svg");
+            $(this).attr("src", "/assets/images/industries/marine_green.svg");
         }, function () {
-            $(this).attr("src", "assets/images/industries/marine.svg");
+            $(this).attr("src", "/assets/images/industries/marine.svg");
         }
     );
 
     $("#agri").hover(
         function () {
-            $(this).attr("src", "assets/images/industries/agri_green.svg");
+            $(this).attr("src", "/assets/images/industries/agri_green.svg");
         }, function () {
-            $(this).attr("src", "assets/images/industries/agri.svg");
+            $(this).attr("src", "/assets/images/industries/agri.svg");
         }
     );
 
     $("#oil").hover(
         function () {
-            $(this).attr("src", "assets/images/industries/oil_green.svg");
+            $(this).attr("src", "/assets/images/industries/oil_green.svg");
         }, function () {
-            $(this).attr("src", "assets/images/industries/oil.svg");
+            $(this).attr("src", "/assets/images/industries/oil.svg");
         }
     );
 
