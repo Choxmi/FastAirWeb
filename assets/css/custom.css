@@ -1560,11 +1560,24 @@ footer .inner-content p a {
 	line-height:15px;
 }
 
+.top {
+	padding-top: 80px;
+}
+
 
 /*----------------------------------RESPONSIVE CUSTOMIZATIONS----------------------------------*/
 
 /* Responsive Style */
 @media (max-width: 768px) {
+
+	.drop-row {
+		display: none !important;
+	}
+	
+	.dropdown:hover .drop-row {
+		display: none !important;
+	}
+
 	.banner .text-content {
 		width: 90%;
 		margin-left: 5%;
@@ -1746,8 +1759,12 @@ footer .inner-content p a {
 		max-width: 90% !important;
 	}
 
+	.container {
+		max-width: 90% !important;
+	}
+
 	header {
-		height: 8vh;
+		height: 130px;
 	}
 
 	.navbar .navbar-nav a.nav-link {
@@ -1769,7 +1786,7 @@ footer .inner-content p a {
 	}
 
 	p {
-		font-size: 1.5rem !important;
+		font-size: 1.2rem !important;
 		line-height: 2rem;
 	}
 
@@ -1783,7 +1800,7 @@ footer .inner-content p a {
 	}
 
 	.featured-list li a {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 
 	.aim-img {
@@ -1829,5 +1846,9 @@ footer .inner-content p a {
 
 	.employee-service {
 		font-size: 2rem;
+	}
+
+	.top {
+		padding-top: 140px;
 	}
 }
